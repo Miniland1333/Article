@@ -230,7 +230,7 @@ section
 .parallax-window
 {
     min-height: 400px;
-    background: transparent;
+    background: #00000073;
 }
 .nopadding
 {
