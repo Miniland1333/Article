@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87952032-1214-4a1c-b4d0-18de5ba6f9d8" name="Default Changelist" comment="">
+    <list default="true" id="87952032-1214-4a1c-b4d0-18de5ba6f9d8" name="Default Changelist" comment="Added toggleable functions">
+      <change afterPath="$PROJECT_DIR$/images/Article/Aquaporin.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/horizontal.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/processModified.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/vertical.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/post_nosidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/post_nosidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/post_nosidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unusedindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/unusedindex.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,9 +25,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="90" column="58" lean-forward="true" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
+            <state relative-caret-position="133">
+              <caret line="79" column="101" lean-forward="true" selection-start-line="79" selection-start-column="101" selection-end-line="79" selection-end-column="101" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#9838#9844#0" expanded="true" />
               </folding>
             </state>
@@ -35,20 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/post_nosidebar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="157" column="41" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
+            <state relative-caret-position="265">
+              <caret line="151" column="17" lean-forward="true" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="1722" column="16" selection-start-line="1722" selection-start-column="16" selection-end-line="1722" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -57,7 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Post body</find>
       <find>margin</find>
       <find>margin-left</find>
       <find>.page</find>
@@ -68,17 +64,31 @@
       <find>jquery</find>
       <find>noside</find>
       <find>css</find>
-      <find>sidebar_slider</find>
-      <find>top</find>
-      <find>_top</find>
       <find>owl</find>
       <find>post</find>
       <find>custom_dots_top</find>
       <find>nav</find>
       <find>absolute</find>
-      <find>custom do</find>
       <find>.custom</find>
+      <find>#ddd</find>
+      <find>sidebar_slider_nav</find>
+      <find>custom do</find>
+      <find>horizontal.jpg</find>
+      <find>dots</find>
+      <find>custom_d</find>
+      <find>custom_dots</find>
+      <find>custom_dots</find>
+      <find>_top</find>
+      <find>id=&quot;custom_dots&quot;</find>
+      <find>id=&quot;custom_dots&quot;</find>
+      <find>sidebar_slider</find>
+      <find>top</find>
+      <find>initSlider</find>
     </findStrings>
+    <replaceStrings>
+      <replace>horizontal.PNG</replace>
+      <replace>${item}</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,12 +96,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/unusedindex.html" />
         <option value="$PROJECT_DIR$/js/post.js" />
         <option value="$PROJECT_DIR$/styles/post.css" />
-        <option value="$PROJECT_DIR$/js/post_nosidebar.js" />
         <option value="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" />
         <option value="$PROJECT_DIR$/styles/post_nosidebar.css" />
+        <option value="$PROJECT_DIR$/unusedindex.html" />
+        <option value="$PROJECT_DIR$/js/post_nosidebar.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -122,11 +132,6 @@
               <item name="Article" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Article" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -144,6 +149,9 @@
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Google Drive\Writing\Pop Sci\Article\images\Article" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Henry\Google Drive\Writing\Pop Sci\Article\images" />
     </key>
@@ -188,7 +196,7 @@
       <workItem from="1549849089198" duration="835000" />
       <workItem from="1549850419266" duration="197000" />
       <workItem from="1549923443638" duration="13000" />
-      <workItem from="1550632743449" duration="5290000" />
+      <workItem from="1550632743449" duration="7323000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Github Pages">
       <created>1549850575624</created>
@@ -197,17 +205,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549850575624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added toggleable functions">
+      <created>1550638075018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550638075018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6335000" />
+    <option name="totallyTimeSpent" value="8368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18482842" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18482842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -224,7 +239,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Debug" order="3" visible="true" weight="0.09933775" />
+      <window_info active="true" anchor="right" id="Debug" order="3" visible="true" weight="0.1896448" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +249,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial Github Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Github Pages" />
+    <MESSAGE value="Added toggleable functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added toggleable functions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -253,28 +269,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unusedindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="1862" column="26" lean-forward="true" selection-start-line="1862" selection-start-column="26" selection-end-line="1862" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/OwlCarousel2-2.2.1/owl.carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-138">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="195" column="20" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -286,16 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="302" column="38" lean-forward="true" selection-start-line="282" selection-start-column="32" selection-end-line="302" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/post_nosidebar_responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -303,17 +292,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/vertical.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/horizontal.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/regular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="288" column="50" lean-forward="true" selection-start-line="288" selection-start-column="50" selection-end-line="288" selection-end-column="50" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unusedindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="1545" column="100" lean-forward="true" selection-start-line="1545" selection-start-column="100" selection-end-line="1545" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="199" column="43" selection-start-line="199" selection-start-column="32" selection-end-line="199" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="1722" column="16" selection-start-line="1722" selection-start-column="16" selection-end-line="1722" selection-end-column="16" />
+        <state relative-caret-position="237">
+          <caret line="1620" column="1" selection-start-line="1620" selection-start-column="1" selection-end-line="1620" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/post_nosidebar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="157" column="41" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
+        <state relative-caret-position="265">
+          <caret line="151" column="17" lean-forward="true" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -322,9 +354,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="90" column="58" lean-forward="true" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
+        <state relative-caret-position="133">
+          <caret line="79" column="101" lean-forward="true" selection-start-line="79" selection-start-column="101" selection-end-line="79" selection-end-column="101" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#9838#9844#0" expanded="true" />
           </folding>
         </state>

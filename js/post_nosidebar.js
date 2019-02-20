@@ -41,7 +41,8 @@ $(document).ready(function()
 
 	initMenu();
 	initGrid();
-	initTopSlider();
+	const array = ['one','two','three'];
+	array.forEach((item)=>initSlider(item));
 
 	/* 
 
@@ -140,11 +141,11 @@ $(document).ready(function()
 
 	*/
 	
-	function initTopSlider()
+	function initSlider(item)
 	{
-		if($('.sidebar_slider_top').length)
+		if($(`.sidebar_slider_${item}`).length)
 		{
-			var topSlider = $('.sidebar_slider_top');
+			var topSlider = $(`.sidebar_slider_${item}`);
 			
 			topSlider.owlCarousel(
 				{
@@ -153,34 +154,34 @@ $(document).ready(function()
 					autoplay:false,
 					smartSpeed:1200,
 					dots:true,
-					dotsContainer:'.custom_dots_top',
+					dotsContainer:`.custom_dots_${item}`,
 					nav:false,
 					animateOut: 'fadeOut'
 				});
 			
-			if($('.custom_prev_top').length)
+			if($(`.custom_prev_${item}`).length)
 			{
-				$('.custom_prev_top').on('click', function()
+				$(`.custom_prev_${item}`).on('click', function()
 				{
 					topSlider.trigger('prev.owl.carousel');
 				});
 			}
 			
-			if($('.custom_next_top').length)
+			if($(`.custom_next_${item}`).length)
 			{
-				$('.custom_next_top').on('click', function()
+				$(`.custom_next_${item}`).on('click', function()
 				{
 					topSlider.trigger('next.owl.carousel');
 				});
 			}
 			
 			/* Custom dots events */
-			if($('.custom_dot_top').length)
+			if($(`.custom_dot_${item}`).length)
 			{
-				$('.custom_dot_top').on('click', function(ev)
+				$(`.custom_dot_${item}`).on('click', function(ev)
 				{
 					var dot = $(ev.target);
-					$('.custom_dot_top').removeClass('active');
+					$(`.custom_dot_${item}`).removeClass('active');
 					dot.addClass('active');
 					topSlider.trigger('to.owl.carousel', [$(this).index(), 300]);
 				});
@@ -189,8 +190,8 @@ $(document).ready(function()
 			/* Change active class for dots when slide changes by nav or touch */
 			topSlider.on('changed.owl.carousel', function(event)
 			{
-				$('.custom_dot_top').removeClass('active');
-				$('.custom_dots_top li').eq(event.page.index).addClass('active');
+				$(`.custom_dot_${item}`).removeClass('active');
+				$(`.custom_dots_${item} li`).eq(event.page.index).addClass('active');
 			});
 		}
 	}

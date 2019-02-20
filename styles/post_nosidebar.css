@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 /******************************
 
 [Table of Contents]
@@ -26,63 +25,60 @@
 
 
 ******************************/
-
 /***********
 1. Fonts
 ***********/
-
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700,800,900');
 
 /*********************************
 2. Body and some general stuff
 *********************************/
 
-*
-{
+* {
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
-body
-{
+
+body {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #f7f7f7;
 	color: #a5a5a5;
 }
-div
-{
+
+div {
 	display: block;
 	position: relative;
 	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-ul
-{
+
+ul {
 	list-style: none;
 	margin-bottom: 0px;
 }
-p
-{
+
+p {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.45;
 	font-weight: 500;
-	color: rgba(0,0,0,0.5);
+	color: rgba(0, 0, 0, 0.5);
 	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
-p:last-of-type
-{
+
+p:last-of-type {
 	margin-bottom: 0;
 }
-p a
-{
+
+p a {
 	display: inline;
 	position: relative;
 	color: inherit;
@@ -93,147 +89,162 @@ p a
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-a, a:hover, a:visited, a:active, a:link
-{
+
+a, a:hover, a:visited, a:active, a:link {
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
-p a:active
-{
+
+p a:active {
 	position: relative;
 	color: #FF6347;
 }
-p a:hover
-{
+
+p a:hover {
 	color: #FFFFFF;
 	background: #ffa07f;
 }
-p a:hover::after
-{
+
+p a:hover::after {
 	opacity: 0.2;
 }
-::selection
-{
-	
+
+::selection {
+
 }
-p::selection
-{
-	
+
+p::selection {
+
 }
-h1{font-size: 48px;}
-h2{font-size: 36px;}
-h3{font-size: 24px;}
-h4{font-size: 18px;}
-h5{font-size: 14px;}
-h1, h2, h3, h4, h5, h6
-{
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
-h6::selection
-{
-	
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+
 }
-.form-control
-{
+
+.form-control {
 	color: #db5246;
 }
-section
-{
+
+section {
 	display: block;
 	position: relative;
 	box-sizing: border-box;
 }
-.clear
-{
+
+.clear {
 	clear: both;
 }
-.clearfix::before, .clearfix::after
-{
+
+.clearfix::before, .clearfix::after {
 	content: "";
 	display: table;
 }
-.clearfix::after
-{
+
+.clearfix::after {
 	clear: both;
 }
-.clearfix
-{
+
+.clearfix {
 	zoom: 1;
 }
-.float_left
-{
+
+.float_left {
 	float: left;
 }
-.float_right
-{
+
+.float_right {
 	float: right;
 }
-.trans_200
-{
+
+.trans_200 {
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.trans_300
-{
+
+.trans_300 {
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
 }
-.trans_400
-{
+
+.trans_400 {
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
 }
-.trans_500
-{
+
+.trans_500 {
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
-.fill_height
-{
+
+.fill_height {
 	height: 100%;
 }
-.super_container
-{
+
+.super_container {
 	width: 100%;
 	overflow: hidden;
 }
-.prlx_parent
-{
+
+.prlx_parent {
 	overflow: hidden;
 }
-.prlx
-{
+
+.prlx {
 	height: 130% !important;
 }
-.parallax-window
-{
-    min-height: 400px;
-    background: #00000073;
+
+.parallax-window {
+	min-height: 400px;
+	background: #00000073;
 }
-.nopadding
-{
+
+.nopadding {
 	padding: 0px !important;
 }
 
@@ -241,8 +252,7 @@ section
 3. Header
 *********************************/
 
-.header
-{
+.header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -254,8 +264,8 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.header_content
-{
+
+.header_content {
 	height: 106px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -263,13 +273,13 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.header.scrolled
-{
-	background: rgba(0,0,0,0.75);
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+
+.header.scrolled {
+	background: rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
-.header.scrolled .header_content
-{
+
+.header.scrolled .header_content {
 	height: 80px;
 }
 
@@ -277,8 +287,7 @@ section
 3.1 Logo
 *********************************/
 
-.logo a
-{
+.logo a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 	color: #FFFFFF;
@@ -291,48 +300,46 @@ section
 3.2 Main Navigation
 *********************************/
 
-.main_nav
-{
+.main_nav {
 	margin-left: 46px;
 }
-.main_nav ul li
-{
+
+.main_nav ul li {
 	display: inline-block;
 }
-.main_nav ul li:not(:last-child)
-{
+
+.main_nav ul li:not(:last-child) {
 	margin-right: 29px;
 }
-.main_nav ul li a
-{
+
+.main_nav ul li a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255, 255, 255, 0.5);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
 .main_nav ul li a:hover,
-.main_nav ul li.active a
-{
-	color: rgba(255,255,255,1);
+.main_nav ul li.active a {
+	color: rgba(255, 255, 255, 1);
 }
 
 /*********************************
 3.3 Weather and Search
 *********************************/
 
-.weather
-{
+.weather {
 	display: inline-block;
 	margin-right: 26px;
 	vertical-align: middle;
 }
-.temperature
-{
+
+.temperature {
 	display: inline-block;
 	vertical-align: middle;
 	font-family: 'Ubuntu', sans-serif;
@@ -341,64 +348,64 @@ section
 	color: #FFFFFF;
 	margin-right: 4px;
 }
-.weather_icon
-{
+
+.weather_icon {
 	display: inline-block;
 }
-.search_container form
-{
+
+.search_container form {
 	display: inline-block;
 	position: relative;
 }
-.header_search_input
-{
+
+.header_search_input {
 	display: inline-block;
 	width: 262px;
 	height: 46px;
-	background: rgba(255,255,255,0.2);
+	background: rgba(255, 255, 255, 0.2);
 	border: none;
 	outline: none;
 	border-radius: 5px;
 	padding-left: 49px;
 	color: #FFFFFF;
 }
-.header_search_input::-webkit-input-placeholder
-{
+
+.header_search_input::-webkit-input-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.header_search_input:-moz-placeholder
-{
+
+.header_search_input:-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.header_search_input::-moz-placeholder
-{
+
+.header_search_input::-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(255,255,255,0.5) !important;
-} 
-.header_search_input:-ms-input-placeholder
-{ 
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.header_search_input::input-placeholder
-{
+
+.header_search_input:-ms-input-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.header_search_icon
-{
+
+.header_search_input::input-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.header_search_icon {
 	position: absolute;
 	top: 50%;
 	left: 25px;
@@ -413,27 +420,25 @@ section
 3.4 Hamburger
 *********************************/
 
-.hamburger
-{
+.hamburger {
 	display: none;
 	cursor: pointer;
 }
-.hamburger i
-{
+
+.hamburger i {
 	font-size: 20px;
-	color: rgba(255,255,255,1);
+	color: rgba(255, 255, 255, 1);
 }
-.hamburger:hover i
-{
-	color: rgba(255,255,255,0.5);
+
+.hamburger:hover i {
+	color: rgba(255, 255, 255, 0.5);
 }
 
 /*********************************
 4. Menu
 *********************************/
 
-.menu
-{
+.menu {
 	position: fixed;
 	top: 0;
 	right: -400px;
@@ -445,16 +450,16 @@ section
 	padding-top: 87px;
 	padding-left: 50px;
 }
-.menu .logo a
-{
+
+.menu .logo a {
 	color: #000000;
 }
-.menu.active
-{
+
+.menu.active {
 	right: 0;
 }
-.menu_close_container
-{
+
+.menu_close_container {
 	position: absolute;
 	top: 30px;
 	right: 60px;
@@ -468,14 +473,14 @@ section
 	transform: rotate(45deg);
 	cursor: pointer;
 }
-.menu_close
-{
+
+.menu_close {
 	width: 100%;
 	height: 100%;
 	transform-style: preserve-3D;
 }
-.menu_close div
-{
+
+.menu_close div {
 	width: 100%;
 	height: 2px;
 	background: #232323;
@@ -486,8 +491,8 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.menu_close div:last-of-type
-{
+
+.menu_close div:last-of-type {
 	-webkit-transform: rotate(90deg) translateX(-2px);
 	-moz-transform: rotate(90deg) translateX(-2px);
 	-ms-transform: rotate(90deg) translateX(-2px);
@@ -495,24 +500,24 @@ section
 	transform: rotate(90deg) translateX(-2px);
 	transform-origin: center;
 }
-.menu_close:hover div
-{
+
+.menu_close:hover div {
 	background: #937c6f;
 }
-.menu .logo
-{
+
+.menu .logo {
 	margin-bottom: 60px;
 }
-.menu_nav ul li
-{
+
+.menu_nav ul li {
 	margin-bottom: 11px;
 }
-.menu_nav ul li a
-{
+
+.menu_nav ul li a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
-	color: rgba(0,0,0,1);
+	color: rgba(0, 0, 0, 1);
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	-webkit-transition: all 200ms ease;
@@ -521,17 +526,17 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.menu_nav ul li a:hover
-{
+
+.menu_nav ul li a:hover {
 	color: #937c6f;
 }
-.menu .search
-{
+
+.menu .search {
 	width: 100%;
 	margin-bottom: 67px;
 }
-.search
-{
+
+.search {
 	display: inline-block;
 	width: 400px;
 	-webkit-transform: translateY(2px);
@@ -540,68 +545,67 @@ section
 	-o-transform: translateY(2px);
 	transform: translateY(2px);
 }
-.menu .header_search_input
-{
+
+.menu .header_search_input {
 	width: 100%;
-	background: rgba(0,0,0,0.1);
+	background: rgba(0, 0, 0, 0.1);
 	border-radius: 6px;
-	color: rgba(0,0,0,0.5);
+	color: rgba(0, 0, 0, 0.5);
 }
-.menu .header_search_input::-webkit-input-placeholder
-{
+
+.menu .header_search_input::-webkit-input-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(0,0,0,0.4) !important;
+	color: rgba(0, 0, 0, 0.4) !important;
 }
-.menu .header_search_input:-moz-placeholder
-{
+
+.menu .header_search_input:-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(0,0,0,0.4) !important;
+	color: rgba(0, 0, 0, 0.4) !important;
 }
-.menu .header_search_input::-moz-placeholder
-{
+
+.menu .header_search_input::-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(0,0,0,0.4) !important;
-} 
-.menu .header_search_input:-ms-input-placeholder
-{ 
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: rgba(0,0,0,0.4) !important;
+	color: rgba(0, 0, 0, 0.4) !important;
 }
-.menu .header_search_input::input-placeholder
-{
+
+.menu .header_search_input:-ms-input-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
-	color: rgba(0,0,0,0.4) !important;
+	color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.menu .header_search_input::input-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: rgba(0, 0, 0, 0.4) !important;
 }
 
 /*********************************
 5. Home
 *********************************/
 
-.home
-{
+.home {
 	width: 100%;
 	height: 560px;
 }
-.home_background
-{
+
+.home_background {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 }
-.home_content
-{
+
+.home_content {
 	position: absolute;
 	top: 52%;
 	left: 50%;
@@ -613,62 +617,62 @@ section
 	max-width: 575px;
 	text-align: center;
 }
-.post_category
-{
+
+.post_category {
 	margin: 0 auto;
 }
-.post_category
-{
+
+.post_category {
 	width: 83px;
 	height: 28px;
-	background: rgba(255,255,255,0.2);
+	background: rgba(255, 255, 255, 0.2);
 	border-radius: 14px;
 	text-align: center;
 }
-.post_category a
-{
+
+.post_category a {
 	display: block;
 	line-height: 28px;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
-	color: rgba(255,255,255,1);
+	color: rgba(255, 255, 255, 1);
 	text-transform: uppercase;
 }
-.post_category:hover
-{
-	background: rgba(255,255,255,1);
+
+.post_category:hover {
+	background: rgba(255, 255, 255, 1);
 }
-.post_category:hover a
-{
-	color: rgba(0,0,0,0.8);
+
+.post_category:hover a {
+	color: rgba(0, 0, 0, 0.8);
 }
-.post_title
-{
+
+.post_title {
 	font-size: 30px;
 	line-height: 1.2;
 	color: #FFFFFF;
 	font-weight: 600;
 	margin-top: 19px;
 }
-.post_author
-{
+
+.post_author {
 	margin: 0 auto;
 	margin-top: 17px;
 }
-.post_author .post_meta
-{
+
+.post_author .post_meta {
 	margin-left: 20px;
 	margin-top: 0;
 }
+
 .post_author .post_meta a,
-.post_author .post_meta span
-{
+.post_author .post_meta span {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
-	color: rgba(255,255,255,0.65);
+	color: rgba(255, 255, 255, 0.65);
 }
-.post_author .author_image div
-{
+
+.post_author .author_image div {
 	width: 40px;
 	height: 40px;
 	border: solid 5px #FFFFFF;
@@ -680,17 +684,16 @@ section
 6. Post Content
 *********************************/
 
-.post_content
-{
+.post_content {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-.page_content
-{
+
+.page_content {
 	background: #f7f7f7;
 }
-.category
-{
+
+.category {
 	margin-top: 80px;
 }
 
@@ -698,84 +701,83 @@ section
 6.1 Post Panel
 *********************************/
 
-.post_panel
-{
+.post_panel {
 	height: 108px;
 	z-index: 10;
 	margin-top: 40px;
 }
-.author_image
-{
-	
+
+.author_image {
+
 }
-.author_image div
-{
+
+.author_image div {
 	width: 58px;
 	height: 58px;
 	border: solid 5px #FFFFFF;
 	border-radius: 50%;
 	overflow: hidden;
 }
-.author_image div img
-{
+
+.author_image div img {
 	max-width: 100%;
 }
-.post_panel .post_meta
-{
+
+.post_panel .post_meta {
 	font-family: 'Ubuntu', sans-serif;
-	color: rgba(0,0,0,0.25);
+	color: rgba(0, 0, 0, 0.25);
 	font-size: 14px;
 	font-weight: 500;
 	margin-left: 20px;
 	margin-top: 0;
 }
+
 .post_panel .post_meta a,
-.post_panel .post_meta span
-{
+.post_panel .post_meta span {
 	display: inline-block;
 	position: relative;
 	font-family: 'Ubuntu', sans-serif;
-	color: rgba(0,0,0,0.25);
+	color: rgba(0, 0, 0, 0.25);
 	font-size: 14px;
 	font-weight: 500;
 }
-.post_panel .post_meta span
-{
+
+.post_panel .post_meta span {
 	margin-left: 10px;
 	padding-left: 5px;
 }
-.post_panel  .post_meta span::before
-{
+
+.post_panel .post_meta span::before {
 	display: block;
 	position: absolute;
 	top: 1px;
 	left: -4px;
 	content: '•';
 }
-.post_share span
-{
+
+.post_share span {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
-	color: rgba(0,0,0,0.2);
+	color: rgba(0, 0, 0, 0.2);
 	letter-spacing: 0.075em;
 	font-weight: 700;
 	margin-right: 28px;
 }
-.post_share_list
-{
+
+.post_share_list {
 	display: inline-block;
 }
-.post_share_item
-{
+
+.post_share_item {
 	display: inline-block;
 }
-.post_share_item:not(:last-child)
-{
+
+.post_share_item:not(:last-child) {
 	margin-right: 15px;
 }
-.post_share_item a i
-{
+
+.post_share_item a i {
 	font-size: 14px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -783,29 +785,28 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.fa-facebook
-{
+
+.fa-facebook {
 	color: #3b5999;
 }
-.fa-twitter
-{
+
+.fa-twitter {
 	color: #55acee;
 }
-.fa-google
-{
+
+.fa-google {
 	color: #dd4b39;
 }
-.post_share_item:hover a i
-{
-	color: rgba(0,0,0,0.2);
+
+.post_share_item:hover a i {
+	color: rgba(0, 0, 0, 0.2);
 }
 
 /*********************************
 6.2 Post Body
 *********************************/
 
-.post_body
-{
+.post_body {
 	padding-left: 69px;
 	padding-top: 59px;
 	padding-right: 68px;
@@ -813,63 +814,64 @@ section
 	background: #FFFFFF;
 	border-radius: 6px;
 }
-.post_p
-{
+
+.post_p {
 	font-size: 16px;
 	line-height: 1.875;
-	color: rgba(0,0,0,0.8);
+	color: rgba(0, 0, 0, 0.8);
 }
-.post_body figure
-{
+
+.post_body figure {
 	width: 100%;
 	margin-top: 40px;
 	margin-bottom: 43px;
 }
-.post_body figure img
-{
+
+.post_body figure img {
 	max-width: 100%;
 }
-.post_body figcaption
-{
+
+.post_body figcaption {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
 	font-style: italic;
-	color: rgba(0,0,0,0.3);
+	color: rgba(0, 0, 0, 0.3);
 	text-align: center;
 	margin-top: 8px;
 }
-.post_quote
-{
+
+.post_quote {
 	padding-top: 58px;
 	padding-bottom: 58px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.post_quote .post_p
-{
+
+.post_quote .post_p {
 	font-weight: 600;
 	font-size: 16px;
 }
-.post_quote_source
-{
+
+.post_quote_source {
 	font-size: 16px;
 	font-weight: 500;
-	color: rgba(0,0,0,0.5);
+	color: rgba(0, 0, 0, 0.5);
 	margin-top: 21px;
 }
-.tags_share
-{
+
+.tags_share {
 	margin-top: 40px;
 }
-.post_tags
-{
-	
+
+.post_tags {
+
 }
-.post_tag
-{
+
+.post_tag {
 	display: inline-block;
 	width: auto;
-	height: 24px;	border: solid 1px #d7d7d7;
+	height: 24px;
+	border: solid 1px #d7d7d7;
 	border-radius: 3px;
 	background: transparent;
 	margin-bottom: 5px;
@@ -879,28 +881,28 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.post_tag:not(:last-child)
-{
+
+.post_tag:not(:last-child) {
 	margin-right: 6px;
 }
-.post_tag a
-{
+
+.post_tag a {
 	display: block;
 	line-height: 22px;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
-	color: rgba(0,0,0,0.5);
+	color: rgba(0, 0, 0, 0.5);
 	font-weight: 500;
 }
-.post_tag:hover
-{
+
+.post_tag:hover {
 	background: #ededed;
 	border-color: #ededed;
 }
-.bottom_panel
-{
+
+.bottom_panel {
 	margin-top: 0;
 }
 
@@ -908,8 +910,7 @@ section
 6.3 Similar Posts
 *********************************/
 
-.similar_posts
-{
+.similar_posts {
 	margin-top: 85px;
 }
 
@@ -917,20 +918,19 @@ section
 6.4 Post Comment
 *********************************/
 
-.post_comment
-{
+.post_comment {
 	margin-top: 70px;
 }
-.post_comment_title
-{
+
+.post_comment_title {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
-	color: rgba(0,0,0,0.8);
+	color: rgba(0, 0, 0, 0.8);
 	font-weight: 700;
 	text-align: center;
 }
-.post_comment_form_container
-{
+
+.post_comment_form_container {
 	width: 100%;
 	background: #FFFFFF;
 	border-radius: 6px;
@@ -940,8 +940,8 @@ section
 	padding-bottom: 40px;
 	margin-top: 44px;
 }
-.comment_input
-{
+
+.comment_input {
 	display: inline-block;
 	width: calc(50% - 15px);
 	height: 42px;
@@ -955,17 +955,17 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.comment_input:first-child
-{
+
+.comment_input:first-child {
 	margin-right: 25px;
 }
+
 .comment_input:hover,
-.comment_text:hover
-{
-	border-color: rgba(0,0,0,1);
+.comment_text:hover {
+	border-color: rgba(0, 0, 0, 1);
 }
-.comment_text
-{
+
+.comment_text {
 	width: 100%;
 	height: 90px;
 	background: transparent;
@@ -980,95 +980,94 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
 .comment_input::-webkit-input-placeholder,
-.comment_text::-webkit-input-placeholder
-{
+.comment_text::-webkit-input-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: rgba(0,0,0,0.3);
+	color: rgba(0, 0, 0, 0.3);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
 .comment_input:-moz-placeholder,
-.comment_text:-moz-placeholder
-{
+.comment_text:-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: rgba(0,0,0,0.3);
+	color: rgba(0, 0, 0, 0.3);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
 .comment_input::-moz-placeholder,
-.comment_text::-moz-placeholder
-{
+.comment_text::-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: rgba(0,0,0,0.3);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-} 
-.comment_input:-ms-input-placeholder,
-.comment_text:-ms-input-placeholder
-{ 
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: rgba(0,0,0,0.3);
+	color: rgba(0, 0, 0, 0.3);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
+.comment_input:-ms-input-placeholder,
+.comment_text:-ms-input-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px !important;
+	font-weight: 500 !important;
+	color: rgba(0, 0, 0, 0.3);
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
 .comment_input::input-placeholder,
-.comment_text::input-placeholder
-{
-	color: rgba(0,0,0,1);
+.comment_text::input-placeholder {
+	color: rgba(0, 0, 0, 1);
 }
 
 .comment_input:hover::-webkit-input-placeholder,
-.comment_text:hover::-webkit-input-placeholder
-{
-	color: rgba(0,0,0,1);
+.comment_text:hover::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 1);
 }
+
 .comment_input:hover:-moz-placeholder,
-.comment_text:hover:-moz-placeholder
-{
-	color: rgba(0,0,0,1);
+.comment_text:hover:-moz-placeholder {
+	color: rgba(0, 0, 0, 1);
 }
+
 .comment_input:hover::-moz-placeholder,
-.comment_text:hover::-moz-placeholder
-{
-	color: rgba(0,0,0,1);
-} 
+.comment_text:hover::-moz-placeholder {
+	color: rgba(0, 0, 0, 1);
+}
+
 .comment_input:hover:-ms-input-placeholder,
-.comment_text:hover:-ms-input-placeholder
-{ 
-	color: rgba(0,0,0,1);
+.comment_text:hover:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 1);
 }
+
 .comment_input:hover::input-placeholder,
-.comment_text:hover::input-placeholder
-{
-	color: rgba(0,0,0,1);
+.comment_text:hover::input-placeholder {
+	color: rgba(0, 0, 0, 1);
 }
-.comment_button
-{
+
+.comment_button {
 	width: 143px;
 	height: 36px;
-	background: rgba(45,223,128,0.1);
-	color: rgba(45,223,128,1);
+	background: rgba(45, 223, 128, 0.1);
+	color: rgba(45, 223, 128, 1);
 	border: none;
 	outline: none;
 	border-radius: 18px;
@@ -1080,9 +1079,9 @@ section
 	transition: all 200ms ease;
 	margin-top: 24px;
 }
-.comment_button:hover
-{
-	background: rgba(45,223,128,1);
+
+.comment_button:hover {
+	background: rgba(45, 223, 128, 1);
 	color: #FFFFFF;
 }
 
@@ -1090,58 +1089,57 @@ section
 6.5 Comments
 *********************************/
 
-.comments
-{
+.comments {
 	margin-top: 70px;
 }
-.comments_title
-{
+
+.comments_title {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	color: rgba(0,0,0,0.8);
+	color: rgba(0, 0, 0, 0.8);
 	text-align: center;
 }
-.comments_container
-{
+
+.comments_container {
 	width: 100%;
 	margin-top: 44px;
 }
-.comment_list > li
-{
+
+.comment_list > li {
 	margin-bottom: 15px;
 }
-.comment
-{
+
+.comment {
 	width: 100%;
 	background: #FFFFFF;
 	border-radius: 6px;
 }
-.comment_body
-{
+
+.comment_body {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.comment_author_image
-{
+
+.comment_author_image {
 	width: 34px;
 	height: 34px;
 	border-radius: 50%;
 	overflow: hidden;
 }
-.comment_body .post_meta
-{
+
+.comment_body .post_meta {
 	margin-top: 0;
 	margin-left: 18px;
 }
-.reply_button
-{
+
+.reply_button {
 	width: 76px;
 	height: 28px;
-	background: rgba(45,223,128,0.1);
-	color: rgba(45,223,128,1);
+	background: rgba(45, 223, 128, 0.1);
+	color: rgba(45, 223, 128, 1);
 	border: none;
 	outline: none;
 	border-radius: 18px;
@@ -1152,17 +1150,17 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.reply_button:hover
-{
-	background: rgba(45,223,128,1);
+
+.reply_button:hover {
+	background: rgba(45, 223, 128, 1);
 	color: #FFFFFF;
 }
-.comment_content
-{
+
+.comment_content {
 	margin-top: 22px;
 }
-.comment ul li
-{
+
+.comment ul li {
 	border-top: solid 1px #e5e5e5;
 }
 
@@ -1170,28 +1168,27 @@ section
 7. Cards
 *********************************/
 
-.card
-{
+.card {
 	border: none;
 	border-radius: 6px;
 	margin-top: 15px;
 }
-.card-body
-{
+
+.card-body {
 	padding-top: 16px;
 	padding-left: 25px;
 	padding-bottom: 15px;
 }
-.card-img-top
-{
+
+.card-img-top {
 	border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-}  
-.card-title a
-{
+	border-top-right-radius: 6px;
+}
+
+.card-title a {
 	font-size: 18px;
 	font-weight: 600;
-	color: rgba(0,0,0,1);
+	color: rgba(0, 0, 0, 1);
 	line-height: 1.33;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1199,104 +1196,104 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.card-title-small a
-{
+
+.card-title-small a {
 	font-size: 16px;
 	line-height: 1.375;
 }
-.card-title a:hover
-{
-	color: rgba(0,0,0,0.5);
+
+.card-title a:hover {
+	color: rgba(0, 0, 0, 0.5);
 }
-.card-text
-{
+
+.card-text {
 	margin-top: -1px;
 }
-.post_meta
-{
+
+.post_meta {
 	display: block;
 	font-family: 'Ubuntu', sans-serif;
-	color: rgba(0,0,0,0.4);
+	color: rgba(0, 0, 0, 0.4);
 	font-size: 12px;
 	font-weight: 500;
 	margin-top: 22px;
 }
+
 .post_meta a,
-.post_meta span
-{
+.post_meta span {
 	display: inline-block;
 	position: relative;
 	font-family: 'Ubuntu', sans-serif;
-	color: rgba(0,0,0,0.4);
+	color: rgba(0, 0, 0, 0.4);
 	font-size: 12px;
 	font-weight: 500;
 }
-.post_meta span
-{
+
+.post_meta span {
 	margin-left: 10px;
 	padding-left: 5px;
 }
-.post_meta span::before
-{
+
+.post_meta span::before {
 	display: block;
 	position: absolute;
 	top: 1px;
 	left: -4px;
 	content: '•';
 }
-.post_row
-{
-	
+
+.post_row {
+
 }
-.grid
-{
+
+.grid {
 	width: calc(100% + 30px);
 }
-.grid-item
-{
+
+.grid-item {
 	float: left;
 }
+
 .card_largest_with_image,
 .card_large_with_background,
-.card_large_with_image
-{
+.card_large_with_image {
 	width: 555px;
 	/*height: 325px;*/
 }
+
 .card_small_no_image,
 .card_small_with_background,
 .card_small_with_image,
 .card_default_no_image,
-.card_default_with_background
-{
+.card_default_with_background {
 	width: 263px;
 }
-.card_small_with_image .card-body
-{
+
+.card_small_with_image .card-body {
 	padding-top: 17px;
 }
-.card_small_with_image .post_meta
-{
+
+.card_small_with_image .post_meta {
 	margin-top: 32px;
 }
-.card_default:not(:last-child)
-{
+
+.card_default:not(:last-child) {
 	/*margin-bottom: 15px;*/
 }
-.card_default .card-body
-{
+
+.card_default .card-body {
 	padding-top: 17px;
 }
-.card_default .post_meta
-{
+
+.card_default .post_meta {
 	margin-top: 17px;
 }
-.card_small_with_background .card-title a
-{
+
+.card_small_with_background .card-title a {
 	color: #FFFFFF;
 }
-.card_background
-{
+
+.card_background {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1308,80 +1305,79 @@ section
 	border-radius: 6px;
 	overflow: hidden;
 }
+
 .card_small_with_background .post_meta span,
-.card_small_with_background .post_meta a
-{
-	color: rgba(255,255,255,0.5);
+.card_small_with_background .post_meta a {
+	color: rgba(255, 255, 255, 0.5);
 }
-.card_small_with_background .post_meta
-{
+
+.card_small_with_background .post_meta {
 	margin-top: 18px;
 }
-.card_default_no_image .card-body
-{
+
+.card_default_no_image .card-body {
 	padding-top: 16px;
 	padding-bottom: 6px !important;
 }
-.card_default_no_image .card-title a
-{
+
+.card_default_no_image .card-title a {
 	font-size: 14px;
 	line-height: 1.3;
 	font-weight: 500;
 }
-.card_default_no_image .card-title
-{
+
+.card_default_no_image .card-title {
 	line-height: 1.3;
 }
-.card_default_no_image .card-body
-{
+
+.card_default_no_image .card-body {
 	padding-bottom: 10px;
 }
-.card_default_with_background .card-body
-{
+
+.card_default_with_background .card-body {
 	padding-top: 16px;
 	padding-bottom: 6px !important;
 }
-.card_default_with_background .card-title a
-{
+
+.card_default_with_background .card-title a {
 	font-size: 14px;
 	line-height: 1.3;
 	font-weight: 500;
 	color: #FFFFFF;
 }
-.card_default_with_background .card-title
-{
+
+.card_default_with_background .card-title {
 	line-height: 1.3;
 }
-.card_default_with_background .card-body
-{
+
+.card_default_with_background .card-body {
 	padding-bottom: 10px;
 }
-.card_large_with_background .card-title a
-{
+
+.card_large_with_background .card-title a {
 	color: #FFFFFF;
 	font-weight: 500;
 }
-.card_large_with_background .post_meta
-{
+
+.card_large_with_background .post_meta {
 	margin-top: 58px;
 }
+
 .card_large_with_background .post_meta span,
-.card_large_with_background .post_meta a
-{
-	color: rgba(255,255,255,0.5);
+.card_large_with_background .post_meta a {
+	color: rgba(255, 255, 255, 0.5);
 }
 
 /*********************************
 8. Load More Button
 *********************************/
 
-.load_more
-{
+.load_more {
 	margin-top: 50px;
 	margin-bottom: 140px;
 }
-.load_more_button
-{
+
+.load_more_button {
 	width: 118px;
 	height: 36px;
 	background: transparent;
@@ -1392,11 +1388,11 @@ section
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
-	color: rgba(0,0,0,0.5);
+	color: rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 }
-.load_more_button:hover
-{
+
+.load_more_button:hover {
 	background: #d7d7d7;
 }
 
@@ -1404,19 +1400,18 @@ section
 9. Footer
 *********************************/
 
-.footer
-{
+.footer {
 	width: 100%;
 	background: #1f1f1f;
 }
-.footer_content
-{
+
+.footer_content {
 	padding-top: 50px;
 	text-align: center;
 	padding-bottom: 17px;
 }
-.footer_logo a
-{
+
+.footer_logo a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
@@ -1425,61 +1420,61 @@ section
 	text-transform: uppercase;
 	line-height: 0.75;
 }
-.footer_social
-{
+
+.footer_social {
 	margin-top: 34px;
 }
-.footer_social ul li
-{
+
+.footer_social ul li {
 	display: inline-block;
 }
-.footer_social ul li:not(:last-child)
-{
+
+.footer_social ul li:not(:last-child) {
 	margin-right: 21px;
 }
-.footer_social ul li i
-{
+
+.footer_social ul li i {
 	color: #8f8f8f;
 }
-.footer_social_facebook:hover i
-{
+
+.footer_social_facebook:hover i {
 	color: #3b5999;
 }
-.footer_social_twitter:hover i
-{
+
+.footer_social_twitter:hover i {
 	color: #55acee;
 }
-.footer_social_pinterest:hover i
-{
+
+.footer_social_pinterest:hover i {
 	color: #bd081c;
 }
-.footer_social_vimeo:hover i
-{
+
+.footer_social_vimeo:hover i {
 	color: #1ab7ea;
 }
-.footer_social_instagram:hover i
-{
+
+.footer_social_instagram:hover i {
 	color: #c26d7a;
 }
-.footer_social_google:hover i
-{
+
+.footer_social_google:hover i {
 	color: #dd4b39;
 }
-.copyright
-{
+
+.copyright {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
 	font-weight: 500;
-	color: rgba(255,255,255,0.1);
+	color: rgba(255, 255, 255, 0.1);
 	margin-top: 40px;
 }
-.subscribe
-{
+
+.subscribe {
 	width: 100%;
 	height: 100%;
 }
-.subscribe_background
-{
+
+.subscribe_background {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1487,28 +1482,28 @@ section
 	height: 100%;
 	background: #111111;
 }
-.subscribe_content
-{
+
+.subscribe_content {
 	width: 100%;
 	padding-left: 30px;
 	padding-right: 15px;
 	padding-top: 45px;
 }
-.subscribe_title
-{
+
+.subscribe_title {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #FFFFFF;
 	margin-bottom: 32px;
 }
-.subscribe_content form
-{
+
+.subscribe_content form {
 	position: relative;
 	width: 100%;
 }
-.sub_input
-{
+
+.sub_input {
 	width: 100%;
 	background: transparent;
 	border: none;
@@ -1517,43 +1512,43 @@ section
 	padding-bottom: 9px;
 	color: #FFFFFF;
 }
-.sub_input::-webkit-input-placeholder
-{
+
+.sub_input::-webkit-input-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.sub_input:-moz-placeholder
-{
+
+.sub_input:-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.sub_input::-moz-placeholder
-{
+
+.sub_input::-moz-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: rgba(255,255,255,0.5) !important;
-} 
-.sub_input:-ms-input-placeholder
-{ 
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.sub_input::input-placeholder
-{
+
+.sub_input:-ms-input-placeholder {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
-	color: rgba(255,255,255,0.5) !important;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
-.sub_button
-{
+
+.sub_input::input-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px !important;
+	font-weight: 500 !important;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.sub_button {
 	position: absolute;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
@@ -1566,119 +1561,120 @@ section
 	border: none;
 	outline: none;
 }
-.sub_button svg polygon
-{
-	fill: rgba(255,255,255,0.5);
+
+.sub_button svg polygon {
+	fill: rgba(255, 255, 255, 0.5);
 }
+
 .subscribe_content form:hover .sub_button svg polygon,
-.subscribe_content form:focus .sub_button svg polygon
-{
+.subscribe_content form:focus .sub_button svg polygon {
 	fill: #37d27f;
 }
+
 .subscribe_content form:hover .sub_input,
-.sub_input:focus
-{
-	border-bottom: solid 1px rgba(255,255,255,1);
+.sub_input:focus {
+	border-bottom: solid 1px rgba(255, 255, 255, 1);
 }
 
 /*Owl Navigation*/
-.custom_nav_container
-{
+.custom_nav_container {
 	z-index: 10;
 }
 
-.sidebar_slider_nav
-{
+.sidebar_slider_nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
 .sidebar_slider_nav_container .custom_prev svg polyline,
-.sidebar_slider_nav_container .custom_next svg polyline
-{
-	fill: rgba(0,0,0,0.15);
+.sidebar_slider_nav_container .custom_next svg polyline {
+	fill: rgba(0, 0, 0, 0.15);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
 .sidebar_slider_nav_container .custom_prev:hover svg polyline,
-.sidebar_slider_nav_container .custom_next:hover svg polyline
-{
-	fill: rgba(0,0,0,1);
-}
-.sidebar_slider_nav_container .custom_dot span
-{
-	background: rgba(0,0,0,0.15);
-}
-.sidebar_slider_nav_container .custom_dot:hover span,
-.sidebar_slider_nav_container .custom_dot.active span
-{
-	background: rgba(0,0,0,1);
+.sidebar_slider_nav_container .custom_next:hover svg polyline {
+	fill: rgba(0, 0, 0, 1);
 }
 
-.home_slider_nav_container
-{
+.sidebar_slider_nav_container .custom_dot span {
+	background: rgba(0, 0, 0, 0.15);
+}
+
+.sidebar_slider_nav_container .custom_dot:hover span,
+.sidebar_slider_nav_container .custom_dot.active span {
+	background: rgba(0, 0, 0, 1);
+}
+
+.home_slider_nav_container {
 	position: absolute;
 	bottom: 264px;
 	left: calc(((100vw - 1170px) / 2) + (1170px * 0.75) + 8px);
 }
-.custom_dots
-{
+
+.custom_dots {
 	display: inline-block;
 	height: 12px;
 	margin-left: 7px;
 	margin-right: 7px;
 }
-.custom_dot
-{
+
+.custom_dot {
 	display: inline-block;
 	padding: 2px;
 	cursor: pointer;
 }
-.custom_dot span
-{
+
+.custom_dot span {
 	display: block;
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
-	background: rgba(255,255,255,0.35);
+	background: rgba(255, 255, 255, 0.35);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.custom_dot.active span
-{
-	background: rgba(255,255,255,1);
+
+.custom_dot.active span {
+	background: rgba(255, 255, 255, 1);
 }
-.custom_dot:hover span
-{
-	background: rgba(255,255,255,1);
+
+.custom_dot:hover span {
+	background: rgba(255, 255, 255, 1);
 }
+
 .custom_prev,
-.custom_next
-{
+.custom_next {
 	cursor: pointer;
 }
-.custom_prev, .custom_next
-{
+
+.custom_prev, .custom_next {
 	display: inline-block;
 	vertical-align: middle;
 }
+
 .custom_prev svg polyline,
-.custom_next svg polyline
-{
-	fill: rgba(255,255,255,0.35);
+.custom_next svg polyline {
+	fill: rgba(255, 255, 255, 0.35);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+
 .custom_prev:hover svg polyline,
-.custom_next:hover svg polyline
-{
-	fill: rgba(255,255,255,1);
+.custom_next:hover svg polyline {
+	fill: rgba(255, 255, 255, 1);
 }
 
 /*Henry Modified*/
@@ -1689,13 +1685,15 @@ section
 .nav-tabs .nav-link {
 	color: #495057;
 	background-color: #fff;
-	border-color: #ddd #ddd;
+	border-color: #ddd;
 	transition-duration: 500ms;
 }
+
 .nav-link:not(.active):hover {
 	background: #09a6fc;
 	color: white;
 }
+
 .nav-tabs .nav-link.active {
 	color: white;
 	background-color: #127BC4;
@@ -1713,12 +1711,24 @@ section
 	justify-content: center;
 	align-items: center;
 }
+
 .side_post {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .side_post > * {
 	flex: 1;
 	margin: 10px;
+}
+
+.slide_text {
+	color: black;
+}
+
+.academy-tab-content {
+	border: 1px solid #ddd;
+	border-top: none;
+	background-color: #f9f9f9;
 }
