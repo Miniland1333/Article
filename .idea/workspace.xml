@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87952032-1214-4a1c-b4d0-18de5ba6f9d8" name="Default Changelist" comment="Added toggleable functions">
-      <change afterPath="$PROJECT_DIR$/images/Article/Aquaporin.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/horizontal.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/processModified.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/vertical.PNG" afterDir="false" />
+    <list default="true" id="87952032-1214-4a1c-b4d0-18de5ba6f9d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/post_nosidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/post_nosidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/post_nosidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,27 +21,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="79" column="101" lean-forward="true" selection-start-line="79" selection-start-column="101" selection-end-line="79" selection-end-column="101" />
+            <state relative-caret-position="219">
+              <caret line="410" column="60" selection-start-line="410" selection-start-column="60" selection-end-line="410" selection-end-column="60" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#9838#9844#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/post_nosidebar.js">
+        <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="151" column="17" lean-forward="true" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="359">
+              <caret line="1725" column="24" lean-forward="true" selection-start-line="1725" selection-start-column="24" selection-end-line="1725" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -54,10 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>margin</find>
-      <find>margin-left</find>
-      <find>.page</find>
-      <find>100px</find>
       <find>team-container</find>
       <find>carousel</find>
       <find>.nav</find>
@@ -77,17 +65,22 @@
       <find>dots</find>
       <find>custom_d</find>
       <find>custom_dots</find>
-      <find>custom_dots</find>
-      <find>_top</find>
       <find>id=&quot;custom_dots&quot;</find>
-      <find>id=&quot;custom_dots&quot;</find>
-      <find>sidebar_slider</find>
       <find>top</find>
+      <find>.sidebar</find>
+      <find>.side</find>
+      <find>sidebar</find>
       <find>initSlider</find>
+      <find>_top</find>
+      <find>sidebar_slider</find>
+      <find>${item}</find>
+      <find>.home_content</find>
+      <find>.post_ti</find>
     </findStrings>
     <replaceStrings>
       <replace>horizontal.PNG</replace>
       <replace>${item}</replace>
+      <replace>_${item}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -98,17 +91,17 @@
       <list>
         <option value="$PROJECT_DIR$/js/post.js" />
         <option value="$PROJECT_DIR$/styles/post.css" />
-        <option value="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" />
-        <option value="$PROJECT_DIR$/styles/post_nosidebar.css" />
         <option value="$PROJECT_DIR$/unusedindex.html" />
         <option value="$PROJECT_DIR$/js/post_nosidebar.js" />
+        <option value="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" />
+        <option value="$PROJECT_DIR$/styles/post_nosidebar.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="543" />
-    <option name="y" value="-14" />
+    <option name="y" value="-15" />
     <option name="width" value="1302" />
     <option name="height" value="702" />
   </component>
@@ -130,7 +123,7 @@
             <path>
               <item name="Article" type="b2602c69:ProjectViewProjectNode" />
               <item name="Article" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +189,8 @@
       <workItem from="1549849089198" duration="835000" />
       <workItem from="1549850419266" duration="197000" />
       <workItem from="1549923443638" duration="13000" />
-      <workItem from="1550632743449" duration="7323000" />
+      <workItem from="1550632743449" duration="7563000" />
+      <workItem from="1550640406023" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Github Pages">
       <created>1549850575624</created>
@@ -212,17 +206,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550638075018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Horizontal Graphene">
+      <created>1550640310455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550640310455</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8368000" />
+    <option name="totallyTimeSpent" value="9108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18482842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1872366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -250,7 +251,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial Github Pages" />
     <MESSAGE value="Added toggleable functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added toggleable functions" />
+    <MESSAGE value="Added Horizontal Graphene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Horizontal Graphene" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -282,13 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="720" column="1" lean-forward="true" selection-start-line="652" selection-end-line="720" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar_responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="198" column="17" lean-forward="true" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -335,33 +330,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="1620" column="1" selection-start-line="1620" selection-start-column="1" selection-end-line="1620" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/post_nosidebar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="151" column="17" lean-forward="true" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+        <state relative-caret-position="460">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar_responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="327" column="21" lean-forward="true" selection-start-line="327" selection-start-column="21" selection-end-line="327" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="1725" column="24" lean-forward="true" selection-start-line="1725" selection-start-column="24" selection-end-line="1725" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="79" column="101" lean-forward="true" selection-start-line="79" selection-start-column="101" selection-end-line="79" selection-end-column="101" />
+        <state relative-caret-position="219">
+          <caret line="410" column="60" selection-start-line="410" selection-start-column="60" selection-end-line="410" selection-end-column="60" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#9838#9844#0" expanded="true" />
           </folding>
         </state>
       </provider>

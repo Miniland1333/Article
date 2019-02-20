@@ -605,19 +605,6 @@ section {
 	height: 100%;
 }
 
-.home_content {
-	position: absolute;
-	top: 52%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	max-width: 575px;
-	text-align: center;
-}
-
 .post_category {
 	margin: 0 auto;
 }
@@ -653,6 +640,7 @@ section {
 	color: #FFFFFF;
 	font-weight: 600;
 	margin-top: 19px;
+	text-align: center;
 }
 
 .post_author {
@@ -1731,4 +1719,16 @@ section {
 	border: 1px solid #ddd;
 	border-top: none;
 	background-color: #f9f9f9;
+}
+
+.home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.home_content {
+	margin: 30px;
+	max-width: 575px;
 }

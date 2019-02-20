@@ -262,10 +262,6 @@
 
 @media only screen and (max-width: 767px)
 {
-	.home_content
-	{
-		top: 58%;
-	}
 	.section_tags
 	{
 		display: none;
@@ -330,12 +326,6 @@
 	.header.scrolled .header_content
 	{
 		height: 60px;
-	}
-	.home_content
-	{
-		width: 100%;
-		padding-left: 15px;
-		padding-right: 15px;
 	}
 	.post_title
 	{
