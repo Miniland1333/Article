@@ -41,6 +41,7 @@ $(document).ready(function()
 
 	initMenu();
 	initGrid();
+	initTopSlider();
 
 	/* 
 
@@ -130,6 +131,68 @@ $(document).ready(function()
 			});
 		}, 500);
 			
+	}
+	
+	/*Custom Owl*/
+	/*
+
+	4. Init Top Slider
+
+	*/
+	
+	function initTopSlider()
+	{
+		if($('.sidebar_slider_top').length)
+		{
+			var topSlider = $('.sidebar_slider_top');
+			
+			topSlider.owlCarousel(
+				{
+					items:1,
+					loop:true,
+					autoplay:false,
+					smartSpeed:1200,
+					dots:true,
+					dotsContainer:'.custom_dots_top',
+					nav:false,
+					animateOut: 'fadeOut'
+				});
+			
+			if($('.custom_prev_top').length)
+			{
+				$('.custom_prev_top').on('click', function()
+				{
+					topSlider.trigger('prev.owl.carousel');
+				});
+			}
+			
+			if($('.custom_next_top').length)
+			{
+				$('.custom_next_top').on('click', function()
+				{
+					topSlider.trigger('next.owl.carousel');
+				});
+			}
+			
+			/* Custom dots events */
+			if($('.custom_dot_top').length)
+			{
+				$('.custom_dot_top').on('click', function(ev)
+				{
+					var dot = $(ev.target);
+					$('.custom_dot_top').removeClass('active');
+					dot.addClass('active');
+					topSlider.trigger('to.owl.carousel', [$(this).index(), 300]);
+				});
+			}
+			
+			/* Change active class for dots when slide changes by nav or touch */
+			topSlider.on('changed.owl.carousel', function(event)
+			{
+				$('.custom_dot_top').removeClass('active');
+				$('.custom_dots_top li').eq(event.page.index).addClass('active');
+			});
+		}
 	}
 
 });
