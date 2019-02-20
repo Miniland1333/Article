@@ -241,7 +241,7 @@ section {
 
 .parallax-window {
 	min-height: 400px;
-	background: #00000073;
+	/*background: #00000073;*/
 }
 
 .nopadding {
@@ -1731,4 +1731,8 @@ section {
 .home_content {
 	margin: 30px;
 	max-width: 575px;
+}
+
+.academy-tabs-content {
+    margin: 30px 0;
 }

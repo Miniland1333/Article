@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="87952032-1214-4a1c-b4d0-18de5ba6f9d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pipes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Article/pipes.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/post_nosidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="410" column="60" selection-start-line="410" selection-start-column="60" selection-end-line="410" selection-end-column="60" />
+            <state relative-caret-position="242">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -36,19 +36,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="1725" column="24" lean-forward="true" selection-start-line="1725" selection-start-column="24" selection-end-line="1725" selection-end-column="24" />
+            <state relative-caret-position="173">
+              <caret line="239" column="1" lean-forward="true" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/Article/pipes.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>team-container</find>
-      <find>carousel</find>
-      <find>.nav</find>
       <find>jquery</find>
       <find>noside</find>
       <find>css</find>
@@ -76,6 +78,9 @@
       <find>${item}</find>
       <find>.home_content</find>
       <find>.post_ti</find>
+      <find>par</find>
+      <find>para</find>
+      <find>parallax</find>
     </findStrings>
     <replaceStrings>
       <replace>horizontal.PNG</replace>
@@ -123,6 +128,17 @@
             <path>
               <item name="Article" type="b2602c69:ProjectViewProjectNode" />
               <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -142,11 +158,12 @@
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Google Drive\Writing\Pop Sci\Article\images\Article" />
+      <recent name="D:\Henry\Google Drive\Writing\Pop Sci\Article\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Google Drive\Writing\Pop Sci\Article\images\Article" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Henry\Google Drive\Writing\Pop Sci\Article\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,7 +207,8 @@
       <workItem from="1549850419266" duration="197000" />
       <workItem from="1549923443638" duration="13000" />
       <workItem from="1550632743449" duration="7563000" />
-      <workItem from="1550640406023" duration="500000" />
+      <workItem from="1550640406023" duration="745000" />
+      <workItem from="1550641471556" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Github Pages">
       <created>1549850575624</created>
@@ -213,17 +231,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550640310455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Centered Header">
+      <created>1550640947325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550640947325</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9108000" />
+    <option name="totallyTimeSpent" value="9996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1872366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1896448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -252,7 +277,8 @@
     <MESSAGE value="Initial Github Pages" />
     <MESSAGE value="Added toggleable functions" />
     <MESSAGE value="Added Horizontal Graphene" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Horizontal Graphene" />
+    <MESSAGE value="Centered Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Centered Header" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -347,17 +373,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/pipes.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/parallax-js-master/parallax.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="1725" column="24" lean-forward="true" selection-start-line="1725" selection-start-column="24" selection-end-line="1725" selection-end-column="24" />
+        <state relative-caret-position="173">
+          <caret line="239" column="1" lean-forward="true" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="410" column="60" selection-start-line="410" selection-start-column="60" selection-end-line="410" selection-end-column="60" />
+        <state relative-caret-position="242">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
