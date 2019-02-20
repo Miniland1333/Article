@@ -641,6 +641,7 @@ section {
 	font-weight: 600;
 	margin-top: 19px;
 	text-align: center;
+	text-shadow: 1px 1px 20px black;
 }
 
 .post_author {
