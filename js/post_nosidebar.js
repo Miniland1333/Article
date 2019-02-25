@@ -156,6 +156,7 @@ $(document).ready(function()
 					dots:true,
 					dotsContainer:`.custom_dots_${item}`,
 					nav:false,
+					mouseDrag:true,
 					animateOut: 'fadeOut'
 				});
 			
