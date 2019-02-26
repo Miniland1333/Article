@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87952032-1214-4a1c-b4d0-18de5ba6f9d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/Article/1/A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/1/B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/1/C.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/1/D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/Water-Filtration.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/graphene-foam.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/post_nosidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/post_nosidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/bootstrap4/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/post_nosidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,53 +25,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="677" column="107" selection-start-line="677" selection-start-column="107" selection-end-line="677" selection-end-column="107" />
+            <state relative-caret-position="104">
+              <caret line="625" column="52" selection-start-line="625" selection-start-column="52" selection-end-line="625" selection-end-column="52" />
               <folding>
-                <element signature="e#2045#2051#0" expanded="true" />
-                <element signature="e#2051#2057#0" expanded="true" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#25878#25884#0" expanded="true" />
-                <element signature="e#25884#25890#0" expanded="true" />
-                <element signature="e#27590#27596#0" expanded="true" />
-                <element signature="e#27596#27602#0" expanded="true" />
-                <element signature="e#30304#30310#0" expanded="true" />
-                <element signature="e#30310#30316#0" expanded="true" />
-                <element signature="e#31594#31600#0" expanded="true" />
-                <element signature="e#31600#31606#0" expanded="true" />
-                <element signature="e#33330#33336#0" expanded="true" />
-                <element signature="e#33336#33342#0" expanded="true" />
-                <element signature="e#35110#35116#0" expanded="true" />
-                <element signature="e#35116#35122#0" expanded="true" />
-                <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#26052#26058#0" expanded="true" />
+                <element signature="e#26058#26064#0" expanded="true" />
+                <element signature="e#27768#27774#0" expanded="true" />
+                <element signature="e#27774#27780#0" expanded="true" />
+                <element signature="e#30482#30488#0" expanded="true" />
+                <element signature="e#30488#30494#0" expanded="true" />
+                <element signature="e#31968#31974#0" expanded="true" />
+                <element signature="e#31974#31980#0" expanded="true" />
+                <element signature="e#33704#33710#0" expanded="true" />
+                <element signature="e#33710#33716#0" expanded="true" />
+                <element signature="e#35641#35647#0" expanded="true" />
+                <element signature="e#35647#35653#0" expanded="true" />
+                <element signature="e#39322#39328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/post_nosidebar.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="180" column="13" selection-start-line="180" selection-start-column="13" selection-end-line="180" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="564">
+              <caret line="1752" column="21" selection-start-line="1752" selection-start-column="21" selection-end-line="1752" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/Article/1/A.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/Article/1/B.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/Article/1/C.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/Article/1/D.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/Article/graphene-foam.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>custom do</find>
-      <find>horizontal.jpg</find>
-      <find>dots</find>
       <find>custom_d</find>
       <find>custom_dots</find>
       <find>id=&quot;custom_dots&quot;</find>
@@ -95,14 +115,16 @@
       <find>owl</find>
       <find>photo</find>
       <find>Ease</find>
-      <find>5Gra</find>
+      <find>center</find>
+      <find>5</find>
+      <find>figure</find>
+      <find>manufacture</find>
     </findStrings>
     <replaceStrings>
       <replace>horizontal.PNG</replace>
       <replace>${item}</replace>
       <replace>_${item}</replace>
       <replace>Click arrows or swipe to navigate</replace>
-      <replace>Figure 2: Cross-section diagram</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -114,10 +136,10 @@
         <option value="$PROJECT_DIR$/js/post.js" />
         <option value="$PROJECT_DIR$/styles/post.css" />
         <option value="$PROJECT_DIR$/unusedindex.html" />
-        <option value="$PROJECT_DIR$/styles/post_nosidebar.css" />
         <option value="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" />
         <option value="$PROJECT_DIR$/js/post_nosidebar.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/post_nosidebar.css" />
       </list>
     </option>
   </component>
@@ -144,7 +166,7 @@
             <path>
               <item name="Article" type="b2602c69:ProjectViewProjectNode" />
               <item name="Article" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +242,7 @@
       <workItem from="1550967753720" duration="834000" />
       <workItem from="1550969982902" duration="195000" />
       <workItem from="1550979885746" duration="3693000" />
-      <workItem from="1551115233671" duration="2177000" />
+      <workItem from="1551115233671" duration="1856000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Github Pages">
       <created>1549850575624</created>
@@ -268,13 +290,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22006000" />
+    <option name="totallyTimeSpent" value="23132000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3245033" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20861678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,14 +306,14 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32933334" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Debug" order="3" visible="true" weight="0.3859121" />
+      <window_info active="true" anchor="right" id="Debug" order="3" visible="true" weight="0.14512472" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/Article/1/C.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18975">
-          <caret line="825" column="23" selection-start-line="825" selection-start-column="23" selection-end-line="825" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/post_nosidebar_responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -433,28 +445,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/1/A.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/1/B.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/1/C.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/1/D.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Article/graphene-foam.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="677" column="107" selection-start-line="677" selection-start-column="107" selection-end-line="677" selection-end-column="107" />
+        <state relative-caret-position="104">
+          <caret line="625" column="52" selection-start-line="625" selection-start-column="52" selection-end-line="625" selection-end-column="52" />
           <folding>
-            <element signature="e#2045#2051#0" expanded="true" />
-            <element signature="e#2051#2057#0" expanded="true" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#25878#25884#0" expanded="true" />
-            <element signature="e#25884#25890#0" expanded="true" />
-            <element signature="e#27590#27596#0" expanded="true" />
-            <element signature="e#27596#27602#0" expanded="true" />
-            <element signature="e#30304#30310#0" expanded="true" />
-            <element signature="e#30310#30316#0" expanded="true" />
-            <element signature="e#31594#31600#0" expanded="true" />
-            <element signature="e#31600#31606#0" expanded="true" />
-            <element signature="e#33330#33336#0" expanded="true" />
-            <element signature="e#33336#33342#0" expanded="true" />
-            <element signature="e#35110#35116#0" expanded="true" />
-            <element signature="e#35116#35122#0" expanded="true" />
-            <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#26052#26058#0" expanded="true" />
+            <element signature="e#26058#26064#0" expanded="true" />
+            <element signature="e#27768#27774#0" expanded="true" />
+            <element signature="e#27774#27780#0" expanded="true" />
+            <element signature="e#30482#30488#0" expanded="true" />
+            <element signature="e#30488#30494#0" expanded="true" />
+            <element signature="e#31968#31974#0" expanded="true" />
+            <element signature="e#31974#31980#0" expanded="true" />
+            <element signature="e#33704#33710#0" expanded="true" />
+            <element signature="e#33710#33716#0" expanded="true" />
+            <element signature="e#35641#35647#0" expanded="true" />
+            <element signature="e#35647#35653#0" expanded="true" />
+            <element signature="e#39322#39328#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="1752" column="21" selection-start-line="1752" selection-start-column="21" selection-end-line="1752" selection-end-column="21" />
         </state>
       </provider>
     </entry>

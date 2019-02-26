@@ -1737,9 +1737,18 @@ section {
 }
 
 .academy-tabs-content {
-    margin: 30px 0;
+	margin: 30px 0;
 }
 
 figure {
-    /* text-align: center; */
+	text-align: center;
+}
+
+figure > img {
+	max-width: 50vmin;
+}
+
+.inlineImage {
+	float:left;
+	margin-right:50px;
 }
