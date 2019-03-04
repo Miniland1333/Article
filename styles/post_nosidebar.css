@@ -810,6 +810,7 @@ section {
 	font-size: 16px;
 	line-height: 1.875;
 	color: rgba(0, 0, 0, 0.8);
+	text-align: justify;
 }
 
 .post_body figure {

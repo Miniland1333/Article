@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" line="344" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="335" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87952032-1214-4a1c-b4d0-18de5ba6f9d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Article/1/A.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/1/B.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/1/C.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/1/D.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/Water-Filtration.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Article/graphene-foam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/2/A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/2/B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/2/C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/2/D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/4/A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/4/B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/4/C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/4/D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Article/4/horizontal.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Article/1/A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Article/1/A.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Article/1/B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Article/1/B.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Article/1/C.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Article/1/C.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Article/1/D.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Article/1/D.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Article/horizontal.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Article/horizontal.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Article/processModified.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Article/processModified.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/post_nosidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/post_nosidebar.css" afterDir="false" />
     </list>
@@ -25,74 +34,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="625" column="52" selection-start-line="625" selection-start-column="52" selection-end-line="625" selection-end-column="52" />
+            <state relative-caret-position="250">
+              <caret line="629" column="60" selection-start-line="629" selection-start-column="60" selection-end-line="629" selection-end-column="60" />
               <folding>
-                <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#26052#26058#0" expanded="true" />
-                <element signature="e#26058#26064#0" expanded="true" />
-                <element signature="e#27768#27774#0" expanded="true" />
-                <element signature="e#27774#27780#0" expanded="true" />
                 <element signature="e#30482#30488#0" expanded="true" />
                 <element signature="e#30488#30494#0" expanded="true" />
-                <element signature="e#31968#31974#0" expanded="true" />
-                <element signature="e#31974#31980#0" expanded="true" />
-                <element signature="e#33704#33710#0" expanded="true" />
-                <element signature="e#33710#33716#0" expanded="true" />
-                <element signature="e#35641#35647#0" expanded="true" />
-                <element signature="e#35647#35653#0" expanded="true" />
-                <element signature="e#39322#39328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="1752" column="21" selection-start-line="1752" selection-start-column="21" selection-end-line="1752" selection-end-column="21" />
+            <state relative-caret-position="196">
+              <caret line="812" column="24" selection-start-line="812" selection-start-column="24" selection-end-line="812" selection-end-column="24" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/Article/1/A.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/Article/1/B.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/Article/1/C.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/Article/1/D.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/Article/graphene-foam.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>custom_d</find>
-      <find>custom_dots</find>
-      <find>id=&quot;custom_dots&quot;</find>
-      <find>top</find>
       <find>.sidebar</find>
       <find>.side</find>
       <find>sidebar</find>
@@ -119,6 +87,10 @@
       <find>5</find>
       <find>figure</find>
       <find>manufacture</find>
+      <find>over trad</find>
+      <find>free water</find>
+      <find>text-just</find>
+      <find>image of</find>
     </findStrings>
     <replaceStrings>
       <replace>horizontal.PNG</replace>
@@ -138,15 +110,15 @@
         <option value="$PROJECT_DIR$/unusedindex.html" />
         <option value="$PROJECT_DIR$/styles/post_nosidebar_responsive.css" />
         <option value="$PROJECT_DIR$/js/post_nosidebar.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/post_nosidebar.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="1301" />
-    <option name="height" value="1391" />
+    <option name="x" value="-12" />
+    <option name="width" value="1302" />
+    <option name="height" value="1392" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -156,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,13 +139,39 @@
             <path>
               <item name="Article" type="b2602c69:ProjectViewProjectNode" />
               <item name="Article" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,6 +242,8 @@
       <workItem from="1550969982902" duration="195000" />
       <workItem from="1550979885746" duration="3693000" />
       <workItem from="1551115233671" duration="1856000" />
+      <workItem from="1551420405565" duration="32000" />
+      <workItem from="1551683937661" duration="1525000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Github Pages">
       <created>1549850575624</created>
@@ -286,17 +287,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550642618720</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Images">
+      <created>1551166173082</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551166173082</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23132000" />
+    <option name="totallyTimeSpent" value="24821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20861678" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2084323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,7 +321,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Debug" order="3" visible="true" weight="0.14512472" />
+      <window_info anchor="right" id="Debug" order="3" weight="0.14512472" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +336,8 @@
     <MESSAGE value="Centered Header" />
     <MESSAGE value="Pre-darkened pipes image" />
     <MESSAGE value="Prev fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prev fix" />
+    <MESSAGE value="Added Images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -445,48 +454,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/Article/1/A.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Article/1/B.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Article/1/C.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Article/1/D.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Article/graphene-foam.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/images/Article/1/A.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/Article/1/C.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/Article/1/D.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/Article/graphene-foam.png" />
+    <entry file="file://$PROJECT_DIR$/images/Article/1/B.jpg" />
+    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="625" column="52" selection-start-line="625" selection-start-column="52" selection-end-line="625" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#26052#26058#0" expanded="true" />
-            <element signature="e#26058#26064#0" expanded="true" />
-            <element signature="e#27768#27774#0" expanded="true" />
-            <element signature="e#27774#27780#0" expanded="true" />
-            <element signature="e#30482#30488#0" expanded="true" />
-            <element signature="e#30488#30494#0" expanded="true" />
-            <element signature="e#31968#31974#0" expanded="true" />
-            <element signature="e#31974#31980#0" expanded="true" />
-            <element signature="e#33704#33710#0" expanded="true" />
-            <element signature="e#33710#33716#0" expanded="true" />
-            <element signature="e#35641#35647#0" expanded="true" />
-            <element signature="e#35647#35653#0" expanded="true" />
-            <element signature="e#39322#39328#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="812" column="24" selection-start-line="812" selection-start-column="24" selection-end-line="812" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/post_nosidebar.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="1752" column="21" selection-start-line="1752" selection-start-column="21" selection-end-line="1752" selection-end-column="21" />
+        <state relative-caret-position="250">
+          <caret line="629" column="60" selection-start-line="629" selection-start-column="60" selection-end-line="629" selection-end-column="60" />
+          <folding>
+            <element signature="e#30482#30488#0" expanded="true" />
+            <element signature="e#30488#30494#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
